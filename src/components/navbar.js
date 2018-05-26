@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import $ from 'jquery';
+import { BrowserRouter as Router, Route , NavLink } from 'react-router-dom';
 class NavBar extends Component {
   render() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Home</a>
+        <a className="navbar-brand" href="#">MT</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -14,13 +15,19 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse" id="navbarColor03">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
+            <NavLink to="/">
               <a className="nav-link" href="#">About Me  <span class="sr-only">(current)</span></a>
+            </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">My Education </a>
+            <NavLink to="/services">
+              <a className="nav-link" href="#">My Services </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">My Work </a>
+            <NavLink to="/works">
+              <a className="nav-link" href="#">My Works </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Request A Quote</a>

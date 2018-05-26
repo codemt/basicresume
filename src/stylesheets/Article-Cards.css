@@ -1,0 +1,18 @@
+figure.snip1253 {
+    font-family:'Raleway', Arial, sans-serif;
+    color:#fff;
+    position:relative;
+    float:left;
+    overflow:hidden;
+    margin:10px 1%;
+    min-width:250px;
+    max-width:310px;
+    width:100%;
+    background-color:#ffffff;
+    color:#000000;
+    text-align:left;
+    font-size:16px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  
