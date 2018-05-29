@@ -5,10 +5,11 @@ import $ from 'jquery';
 import "../stylesheets/Article-Cards.css";
 import "../stylesheets/Article-List.css";
 import "../stylesheets/Lightbox-Gallery.css";
+import "../stylesheets/custom.css";
  class Works extends Component {
   render() {
     return (
-        <div>
+        <div class="custom">
         
         <figure class="snip1253">
         <div class="image"><img src="http://101musicalsacademy.in/wp-content/uploads/2016/05/IMG_7282-e1464516797638.jpg" alt="sample52" style={{width:440,height:250}}/></div>
