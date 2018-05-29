@@ -19,6 +19,36 @@ import "../stylesheets/Lightbox-Gallery.css";
         </figcaption>
         
       </figure>
+      <figure class="snip1253">
+        <div class="image"><img src="http://101musicalsacademy.in/wp-content/uploads/2016/05/IMG_7282-e1464516797638.jpg" alt="sample52" style={{width:440,height:250}}/></div>
+        <figcaption>
+          <h3> Live Performances  </h3>
+          <p>
+            I don't need to compromise my principles, they don't have the slightest bearing on what happens to me anyway.
+          </p>
+        </figcaption>
+        
+      </figure>
+      <figure class="snip1253">
+        <div class="image"><img src="http://101musicalsacademy.in/wp-content/uploads/2016/05/IMG_7282-e1464516797638.jpg" alt="sample52" style={{width:440,height:250}}/></div>
+        <figcaption>
+          <h3>Launched Website 101musicalsacademy </h3>
+          <p>
+            I don't need to compromise my principles, they don't have the slightest bearing on what happens to me anyway.
+          </p>
+        </figcaption>
+        
+      </figure>
+      <figure class="snip1253">
+        <div class="image"><img src="http://101musicalsacademy.in/wp-content/uploads/2016/05/IMG_7282-e1464516797638.jpg" alt="sample52" style={{width:440,height:250}}/></div>
+        <figcaption>
+          <h3>Launched Youtube Viewing App on App Store. </h3>
+          <p>
+            I don't need to compromise my principles, they don't have the slightest bearing on what happens to me anyway.
+          </p>
+        </figcaption>
+        
+      </figure>
       <figure class="snip1253 hover">
         <div class="image"><img src="live.png" alt="sample66" style={{width:440,height:250}}/></div>
         <figcaption>
@@ -33,13 +63,14 @@ import "../stylesheets/Lightbox-Gallery.css";
         <div class="image"><img src="news.png" alt="sample59" style={{width:440,height:250}}/></div>
         <figcaption>
           
-          <h3>Launched News Reader App on Play Store.</h3>
+          <h3>Launched News Reader App </h3>
           <p>
             I don't need to compromise my principles, they don't have the slightest bearing on what happens to me anyway.
           </p>
         </figcaption>
        
       </figure>
+      
       </div>
     )
   }

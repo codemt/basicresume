@@ -8,6 +8,7 @@ class NavBar extends Component {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">MT</a>
+        
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -30,7 +31,9 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item">
+            <NavLink to="/request">
               <a className="nav-link" href="#">Request A Quote</a>
+            </NavLink>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
