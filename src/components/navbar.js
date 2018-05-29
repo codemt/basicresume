@@ -31,6 +31,11 @@ class NavBar extends Component {
               </NavLink>
             </li>
             <li className="nav-item">
+            <NavLink to="/videos">
+              <a className="nav-link" href="#">My Videos </a>
+              </NavLink>
+            </li>
+            <li className="nav-item">
             <NavLink to="/request">
               <a className="nav-link" href="#">Request A Quote</a>
             </NavLink>
