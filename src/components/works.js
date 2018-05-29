@@ -9,6 +9,7 @@ import "../stylesheets/Lightbox-Gallery.css";
   render() {
     return (
         <div>
+        
         <figure class="snip1253">
         <div class="image"><img src="http://101musicalsacademy.in/wp-content/uploads/2016/05/IMG_7282-e1464516797638.jpg" alt="sample52" style={{width:440,height:250}}/></div>
         <figcaption>
@@ -41,7 +42,7 @@ import "../stylesheets/Lightbox-Gallery.css";
         
       </figure>
       <figure class="snip1253">
-        <div class="image"><img src="http://101musicalsacademy.in/wp-content/uploads/2016/05/IMG_7282-e1464516797638.jpg" alt="sample52" style={{width:440,height:250}}/></div>
+        <div class="image"><img src="basicsguitar.png" alt="sample52" style={{width:440,height:250}}/></div>
         <figcaption>
           <h3>Launched Youtube Viewing App on App Store. </h3>
           <p>
@@ -73,7 +74,7 @@ import "../stylesheets/Lightbox-Gallery.css";
         </figcaption>
        
       </figure>
-      
+       
       </div>
     )
   }
